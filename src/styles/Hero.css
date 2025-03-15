@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #111;
+  color: white;
+  max-height: fit-content;
+  font-size: 12px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.social-links a {
+  background: #222;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}

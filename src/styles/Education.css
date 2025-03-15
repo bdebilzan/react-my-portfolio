@@ -1,0 +1,14 @@
+.education {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  grid-column: 1;
+  max-height: fit-content;
+}
+
+.education h2 {
+  color: #ff4a57;
+}

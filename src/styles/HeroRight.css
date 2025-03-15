@@ -1,0 +1,37 @@
+.about {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #111;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+}
+
+.about h2 {
+  color: #ff4a57;
+}
+
+.about p {
+  font-size: 12px;
+  color: #bbb;
+}
+
+.contact {
+  max-width: 600px;
+  background: #111;
+  border-radius: 10px;
+}
+
+.contact p {
+  font-size: 12px;
+  color: #bbb;
+}
+
+.contact-details a {
+  color: rgb(183, 183, 183);
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  color: #c9c9c9;
+}
