@@ -60,6 +60,42 @@
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #2c2c2c;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.card::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card::-webkit-scrollbar-track {
+  background: #222;
+}
+
+.card::-webkit-scrollbar-thumb {
+  background: rgb(13, 13, 13);
+  border-radius: 5px;
+}
+
+.card::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #ff4a57;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
 }
 
 .card:hover {
