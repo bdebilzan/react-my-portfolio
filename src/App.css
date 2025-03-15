@@ -70,16 +70,16 @@
 }
 
 .card::-webkit-scrollbar-track {
-  background: #222;
+  background: #101010;
 }
 
 .card::-webkit-scrollbar-thumb {
-  background: rgb(13, 13, 13);
+  background: #282828;
   border-radius: 5px;
 }
 
 .card::-webkit-scrollbar-thumb:hover {
-  background: #444;
+  background: #313131;
 }
 
 .back-to-top {
