@@ -10,5 +10,28 @@
 }
 
 .education h2 {
-  color: #ff4a57;
+  color: #ffffff;
+}
+
+.school-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.csula-logo {
+  width: 20px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.degree {
+  margin-bottom: 0;
 }

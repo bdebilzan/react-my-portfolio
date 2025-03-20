@@ -6,8 +6,7 @@ function HeroRight() {
       <h2>About Me</h2>
       <p>
         I'm a passionate developer, most recently specializing in React.js and
-        modern UI/UX. Based in San Diego, I create sleek, user-friendly
-        applications.
+        modern UI/UX. I create sleek, user-friendly applications.
       </p>
       <div className="contact">
         <h2>Let's Connect</h2>

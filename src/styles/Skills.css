@@ -5,7 +5,7 @@
 }
 
 .skills h2 {
-  color: #ff4a57;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -36,7 +36,7 @@
 
 .skill:hover {
   transform: scale(1.1);
-  color: #ff4a57;
+  color: #767676;
 }
 
 @media (max-width: 600px) {

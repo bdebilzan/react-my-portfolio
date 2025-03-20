@@ -2,7 +2,7 @@ import "../styles/Hero.css";
 import { ReactTyped } from "react-typed";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import profilePic from "../assets/circle-cropped.png";
+import profilePic from "../assets/bw-circle-cropped.png";
 
 function HeroLeft() {
   return (
