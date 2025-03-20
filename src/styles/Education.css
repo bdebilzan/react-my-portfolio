@@ -7,6 +7,11 @@
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
   grid-column: 1;
   max-height: fit-content;
+  max-width: 410px;
+  margin: 0 auto;
+  border: 1px solid #2c2c2c;
+  position: relative;
+  z-index: 2;
 }
 
 .education h2 {

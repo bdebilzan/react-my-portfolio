@@ -16,8 +16,6 @@
 }
 
 .profile-pic {
-  width: 10px;
-  height: 10px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);

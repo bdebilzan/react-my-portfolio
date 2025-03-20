@@ -16,6 +16,9 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@react-three/drei": "^10.0.4",
     "@react-three/fiber": "^9.1.0",
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
     "framer-motion": "^12.5.0",
     "globe.gl": "^2.41.1",
     "react": "^19.0.0",
@@ -23,8 +26,10 @@
     "react-globe": "^5.0.2",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.3.0",
+    "react-tsparticles": "^2.12.2",
     "react-typed": "^2.0.12",
-    "three": "^0.174.0"
+    "three": "^0.174.0",
+    "tsparticles": "^3.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
