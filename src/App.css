@@ -5,19 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -68,36 +55,23 @@
 
 .card::-webkit-scrollbar-track {
   background: #101010;
+  margin: 5px 0;
 }
 
 .card::-webkit-scrollbar-thumb {
   background: #282828;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .card::-webkit-scrollbar-thumb:hover {
   background: #313131;
-}
-
-.back-to-top {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background: #ff4a57;
-  color: white;
-  padding: 8px 12px;
-  border-radius: 50%;
-  cursor: pointer;
-  display: none;
-  font-size: 14px;
-  text-align: center;
-  line-height: 1;
-  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
 }
 
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.15);
+  border: 1px solid #636363;
 }
 
 .education-container {

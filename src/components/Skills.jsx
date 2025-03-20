@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../styles/Skills.css";
 import {
   FaJs,
@@ -20,8 +21,11 @@ import {
   SiMysql,
   SiJenkins,
 } from "react-icons/si";
+import { motion } from "framer-motion";
 
 function Skills() {
+  const [hoveredSkill, setHoveredSkill] = useState(null);
+
   const skills = [
     { name: "JavaScript", icon: <FaJs /> },
     { name: "ReactJS", icon: <FaReact /> },
@@ -47,10 +51,17 @@ function Skills() {
       <h2>Skills</h2>
       <div className="skills-grid">
         {skills.map((skill, index) => (
-          <div key={index} className="skill">
+          <motion.div
+            key={`${index}-${hoveredSkill}`}
+            className="skill"
+            onMouseEnter={() => setHoveredSkill(index)}
+            onMouseLeave={() => setHoveredSkill(null)}
+            animate={hoveredSkill === index ? { rotateY: 360 } : { rotateY: 0 }}
+            transition={{ duration: 0.6, ease: "linear" }}
+          >
             {skill.icon}
             <span>{skill.name}</span>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

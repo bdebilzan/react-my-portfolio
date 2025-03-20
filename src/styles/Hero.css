@@ -30,6 +30,7 @@
   padding: 10px;
   border-radius: 5px;
   color: white;
+  border: 1px solid #3b3b3b;
 }
 
 .social-links a:hover {
